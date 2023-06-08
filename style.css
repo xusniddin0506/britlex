@@ -42,4 +42,35 @@ nav{
 }
 header{
     background-image: url(/img/bmv_image.jpg);
+    height: 70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+header > .header_text{
+    padding-left:2rem;
+    color: red;
+}
+.header_text >h1{
+    font-size: 3.6rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-bottom: 2rem;
+}
+.header_text > p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding-bottom: 2rem;
+}
+.btn{
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1rem;
+    background-color: #000000;
 }
